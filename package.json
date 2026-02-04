@@ -1,0 +1,19 @@
+{
+  "name": "caml-scene-exporter",
+  "version": "1.0.0",
+  "description": "CAML 2.0 to DM Scene Card Exporter",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "archiver": "^6.0.2",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "slugify": "^1.6.6",
+    "zod": "^3.23.8"
+  }
+}
